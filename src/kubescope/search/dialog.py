@@ -101,7 +101,8 @@ class GlobalSearch(QDialog):
         self.results.itemClicked.connect(self._choose)
 
     def open_with(self, entries: list[SearchEntry]) -> None:
-        """Show the window with the screens and actions; resources come later."""
+        """Show the window with the screens and actions; resources come
+        later."""
         self._entries = list(entries)
         self._resources = []
         self.input.clear()

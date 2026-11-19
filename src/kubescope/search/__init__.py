@@ -1,4 +1,5 @@
-"""Global search for KubeScope: find a screen, a list or a resource by its name."""
+"""Global search for KubeScope: find a screen, a list or a resource by its
+name."""
 
 from kubescope.sdk import Context
 

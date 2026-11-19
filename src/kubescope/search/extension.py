@@ -1,4 +1,5 @@
-"""What the app calls to run the global search: its shortcuts and its window."""
+"""What the app calls to run the global search: its shortcuts and its
+window."""
 
 from collections.abc import Callable
 
@@ -56,7 +57,8 @@ class Search:
         return found
 
     def open(self) -> None:
-        """/ or Ctrl+K: find a screen, a list or a resource of any namespace."""
+        """/ or Ctrl+K: find a screen, a list or a resource of any
+        namespace."""
         ui = self.ctx.ui
         if ui is None:
             return

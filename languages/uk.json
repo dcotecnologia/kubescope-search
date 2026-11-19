@@ -1,0 +1,20 @@
+{
+    "name": "Українська",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Огляд кластера",
+            "Global search": "Глобальний пошук",
+            "Global search (second shortcut)": "Глобальний пошук (друге скорочення)",
+            "Screen": "Екран",
+            "Search": "Пошук",
+            "Settings": "Налаштування",
+            "Workloads overview": "Огляд робочих навантажень"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Завантаження ресурсів...",
+            "Search": "Пошук",
+            "Search screens, actions and resources...": "Шукайте екрани, дії та ресурси..."
+        }
+    }
+}

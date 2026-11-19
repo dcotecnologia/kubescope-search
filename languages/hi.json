@@ -1,0 +1,20 @@
+{
+    "name": "हिन्दी",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "क्लस्टर अवलोकन",
+            "Global search": "वैश्विक खोज",
+            "Global search (second shortcut)": "वैश्विक खोज (दूसरा शॉर्टकट)",
+            "Screen": "स्क्रीन",
+            "Search": "खोजें",
+            "Settings": "सेटिंग्स",
+            "Workloads overview": "Workloads ओवरव्यू"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "संसाधन लोड हो रहे हैं...",
+            "Search": "खोजें",
+            "Search screens, actions and resources...": "स्क्रीन, क्रियाएँ और संसाधन खोजें..."
+        }
+    }
+}

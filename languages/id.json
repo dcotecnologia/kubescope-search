@@ -1,0 +1,20 @@
+{
+    "name": "Bahasa Indonesia",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Ringkasan klaster",
+            "Global search": "Pencarian global",
+            "Global search (second shortcut)": "Pencarian global (pintasan kedua)",
+            "Screen": "Layar",
+            "Search": "Cari",
+            "Settings": "Pengaturan",
+            "Workloads overview": "Ringkasan workload"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Memuat sumber daya...",
+            "Search": "Cari",
+            "Search screens, actions and resources...": "Cari layar, tindakan, dan sumber daya..."
+        }
+    }
+}

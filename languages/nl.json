@@ -1,0 +1,20 @@
+{
+    "name": "Nederlands",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Clusteroverzicht",
+            "Global search": "Globaal zoeken",
+            "Global search (second shortcut)": "Globaal zoeken (tweede sneltoets)",
+            "Screen": "Scherm",
+            "Search": "Zoeken",
+            "Settings": "Instellingen",
+            "Workloads overview": "Workloadoverzicht"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Resources laden...",
+            "Search": "Zoeken",
+            "Search screens, actions and resources...": "Zoek schermen, acties en resources..."
+        }
+    }
+}

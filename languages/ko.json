@@ -1,0 +1,20 @@
+{
+    "name": "한국어",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "클러스터 개요",
+            "Global search": "전역 검색",
+            "Global search (second shortcut)": "전역 검색(두 번째 단축키)",
+            "Screen": "화면",
+            "Search": "검색",
+            "Settings": "설정",
+            "Workloads overview": "워크로드 개요"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "리소스 불러오는 중...",
+            "Search": "검색",
+            "Search screens, actions and resources...": "화면, 동작, 리소스 검색..."
+        }
+    }
+}

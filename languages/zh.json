@@ -1,0 +1,20 @@
+{
+    "name": "中文",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "集群概览",
+            "Global search": "全局搜索",
+            "Global search (second shortcut)": "全局搜索（第二快捷键）",
+            "Screen": "界面",
+            "Search": "搜索",
+            "Settings": "设置",
+            "Workloads overview": "Workloads 概览"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "正在加载资源...",
+            "Search": "搜索",
+            "Search screens, actions and resources...": "搜索界面、操作和资源..."
+        }
+    }
+}

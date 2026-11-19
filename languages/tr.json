@@ -1,0 +1,20 @@
+{
+    "name": "Türkçe",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Küme genel bakışı",
+            "Global search": "Genel arama",
+            "Global search (second shortcut)": "Genel arama (ikinci kısayol)",
+            "Screen": "Ekran",
+            "Search": "Ara",
+            "Settings": "Ayarlar",
+            "Workloads overview": "İş yüklerine genel bakış"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Kaynaklar yükleniyor...",
+            "Search": "Ara",
+            "Search screens, actions and resources...": "Ekranları, eylemleri ve kaynakları ara..."
+        }
+    }
+}

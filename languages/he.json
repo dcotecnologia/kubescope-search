@@ -1,0 +1,20 @@
+{
+    "name": "עברית",
+    "rtl": true,
+    "strings": {
+        "": {
+            "Cluster overview": "סקירת האשכול",
+            "Global search": "חיפוש כללי",
+            "Global search (second shortcut)": "חיפוש כללי (קיצור שני)",
+            "Screen": "מסך",
+            "Search": "חיפוש",
+            "Settings": "הגדרות",
+            "Workloads overview": "סקירת עומסי עבודה"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "טוען משאבים...",
+            "Search": "חיפוש",
+            "Search screens, actions and resources...": "חפשו מסכים, פעולות ומשאבים..."
+        }
+    }
+}

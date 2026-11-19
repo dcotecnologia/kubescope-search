@@ -1,0 +1,20 @@
+{
+    "name": "Français",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Vue d'ensemble du cluster",
+            "Global search": "Recherche globale",
+            "Global search (second shortcut)": "Recherche globale (second raccourci)",
+            "Screen": "Écran",
+            "Search": "Rechercher",
+            "Settings": "Paramètres",
+            "Workloads overview": "Vue d'ensemble des workloads"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Chargement des ressources...",
+            "Search": "Rechercher",
+            "Search screens, actions and resources...": "Rechercher des écrans, des actions et des ressources..."
+        }
+    }
+}

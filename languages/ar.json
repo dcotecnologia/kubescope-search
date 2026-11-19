@@ -1,0 +1,20 @@
+{
+    "name": "العربية",
+    "rtl": true,
+    "strings": {
+        "": {
+            "Cluster overview": "نظرة عامة على العنقود",
+            "Global search": "البحث الشامل",
+            "Global search (second shortcut)": "البحث الشامل (الاختصار الثاني)",
+            "Screen": "الشاشة",
+            "Search": "بحث",
+            "Settings": "الإعدادات",
+            "Workloads overview": "نظرة عامة على workloads"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "جارٍ تحميل الموارد...",
+            "Search": "بحث",
+            "Search screens, actions and resources...": "ابحث عن الشاشات والإجراءات والموارد..."
+        }
+    }
+}

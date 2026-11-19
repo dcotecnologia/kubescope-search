@@ -1,0 +1,20 @@
+{
+    "name": "ไทย",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "ภาพรวมคลัสเตอร์",
+            "Global search": "ค้นหาทั่วทั้งระบบ",
+            "Global search (second shortcut)": "ค้นหาทั่วทั้งระบบ (ปุ่มลัดที่สอง)",
+            "Screen": "หน้าจอ",
+            "Search": "ค้นหา",
+            "Settings": "การตั้งค่า",
+            "Workloads overview": "ภาพรวมเวิร์กโหลด"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "กำลังโหลดทรัพยากร...",
+            "Search": "ค้นหา",
+            "Search screens, actions and resources...": "ค้นหาหน้าจอ การกระทำ และทรัพยากร..."
+        }
+    }
+}

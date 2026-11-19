@@ -1,0 +1,20 @@
+{
+    "name": "日本語",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "クラスターの概要",
+            "Global search": "グローバル検索",
+            "Global search (second shortcut)": "グローバル検索（2つ目のショートカット）",
+            "Screen": "画面",
+            "Search": "検索",
+            "Settings": "設定",
+            "Workloads overview": "Workloads の概要"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "リソースを読み込み中...",
+            "Search": "検索",
+            "Search screens, actions and resources...": "画面、操作、リソースを検索..."
+        }
+    }
+}

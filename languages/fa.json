@@ -1,0 +1,20 @@
+{
+    "name": "فارسی",
+    "rtl": true,
+    "strings": {
+        "": {
+            "Cluster overview": "نمای کلی خوشه",
+            "Global search": "جستجوی سراسری",
+            "Global search (second shortcut)": "جستجوی سراسری (میان‌بر دوم)",
+            "Screen": "صفحه",
+            "Search": "جستجو",
+            "Settings": "تنظیمات",
+            "Workloads overview": "نمای کلی بارهای کاری"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "در حال بارگذاری منابع...",
+            "Search": "جستجو",
+            "Search screens, actions and resources...": "جستجوی صفحه‌ها، کنش‌ها و منابع..."
+        }
+    }
+}

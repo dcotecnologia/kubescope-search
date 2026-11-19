@@ -1,0 +1,20 @@
+{
+    "name": "Русский",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Обзор кластера",
+            "Global search": "Глобальный поиск",
+            "Global search (second shortcut)": "Глобальный поиск (второе сочетание)",
+            "Screen": "Экран",
+            "Search": "Поиск",
+            "Settings": "Настройки",
+            "Workloads overview": "Обзор workloads"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Загрузка ресурсов...",
+            "Search": "Поиск",
+            "Search screens, actions and resources...": "Поиск экранов, действий и ресурсов..."
+        }
+    }
+}

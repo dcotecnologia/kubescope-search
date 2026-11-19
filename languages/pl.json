@@ -1,0 +1,20 @@
+{
+    "name": "Polski",
+    "rtl": false,
+    "strings": {
+        "": {
+            "Cluster overview": "Przegląd klastra",
+            "Global search": "Wyszukiwanie globalne",
+            "Global search (second shortcut)": "Wyszukiwanie globalne (drugi skrót)",
+            "Screen": "Ekran",
+            "Search": "Szukaj",
+            "Settings": "Ustawienia",
+            "Workloads overview": "Przegląd obciążeń"
+        },
+        "GlobalSearch": {
+            "Loading resources...": "Wczytywanie zasobów...",
+            "Search": "Szukaj",
+            "Search screens, actions and resources...": "Szukaj ekranów, akcji i zasobów..."
+        }
+    }
+}

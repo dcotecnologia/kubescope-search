@@ -1,6 +1,6 @@
 [project]
 name = "kubescope-search"
-version = "1.0.0"
+version = "1.0.1"
 description = "Global search for KubeScope: find a screen, a list or a resource of any namespace by its name"
 readme = "README.md"
 license = "MIT"

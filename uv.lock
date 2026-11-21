@@ -363,7 +363,7 @@ dependencies = [
 
 [[package]]
 name = "kubescope-search"
-version = "1.0.0"
+version = "1.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "kubescope-sdk" },

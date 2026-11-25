@@ -1,7 +1,3 @@
-import os
-
-os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
-
 from kubescope.sdk.models import SearchHit
 
 import kubescope.search as package

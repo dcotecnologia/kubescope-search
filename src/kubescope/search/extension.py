@@ -2,19 +2,19 @@
 window."""
 
 from collections.abc import Callable
+from typing import Any
 
-from kubescope.sdk import Context
+from kubescope.sdk import Context, translate
 from kubescope.sdk.models import SearchHit
-from PySide6.QtCore import QCoreApplication
 
-from kubescope.search.dialog import GlobalSearch, SearchEntry
+from kubescope.search.entries import SearchEntry
 
 OPEN = "kubescope.search.open"
 OPEN_ALT = "kubescope.search.open_alt"
 
 
 def tr(text: str) -> str:
-    return QCoreApplication.translate("SearchExtension", text)
+    return translate("SearchExtension", text)
 
 
 class Search:
@@ -22,7 +22,7 @@ class Search:
 
     def __init__(self, ctx: Context) -> None:
         self.ctx = ctx
-        self.dialog: GlobalSearch | None = None
+        self.dialog: Any = None
 
     def report(self, text: str) -> None:
         """Tell the person why the window could not go where they chose."""
@@ -63,7 +63,12 @@ class Search:
         if ui is None:
             return
         if self.dialog is None:
-            self.dialog = GlobalSearch(ui.window, ui.themed)
+            self.dialog = ui.components.palette(
+                ui.window,
+                translate("GlobalSearch", "Search"),
+                translate("GlobalSearch", "Search screens, actions and resources..."),
+                translate("GlobalSearch", "Loading resources..."),
+            )
         dialog = self.dialog
         dialog.open_with(self.entries())
         context = self.ctx.current_context

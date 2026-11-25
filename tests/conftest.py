@@ -1,12 +1,8 @@
 """Fixtures of the tests of the global search."""
 
-import os
-
-os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
-
 import pytest
-from PySide6.QtCore import QCoreApplication, QEvent
-from PySide6.QtWidgets import QApplication, QWidget
+from kubescope.extensions import testing
+from kubescope.extensions.components import UiComponents
 
 
 @pytest.fixture(autouse=True)
@@ -31,21 +27,15 @@ def light_theme():
 def delete_the_windows():
     """Delete what a test shows before the application goes away: a window that
     outlives it crashes the run when it ends."""
-    if QApplication.instance() is None:
-        QApplication([])
-    before = set(QApplication.topLevelWidgets())
-    yield
-    for widget in set(QApplication.topLevelWidgets()) - before:
-        widget.close()
-        widget.deleteLater()
-    QCoreApplication.sendPostedEvents(None, QEvent.Type.DeferredDelete)
+    yield from testing.cleanup()
 
 
 class FakeUi:
     """`ctx.ui`: runs an action at once and remembers what was shown."""
 
     def __init__(self) -> None:
-        self.window = QWidget()
+        self.components = UiComponents()
+        self.window = self.components.widget()
         self.window.resize(800, 600)
         self.messages: list[tuple[str, str, str]] = []
 

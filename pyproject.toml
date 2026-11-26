@@ -1,6 +1,6 @@
 [project]
 name = "kubescope-search"
-version = "1.1.0"
+version = "1.2.0"
 description = "Global search for KubeScope: find a screen, a list or a resource of any namespace by its name"
 readme = "README.md"
 license = "MIT"
@@ -21,7 +21,7 @@ build-backend = "setuptools.build_meta"
 dev = [
     # only the tests need the app: they run her in its window and lend her its
     # real services
-    "kubescope>=2.9.0",
+    "kubescope>=2.10.0",
     "pre-commit>=4.7.0",
     "pytest>=9.2.0",
     "pytest-cov>=7.1.0",

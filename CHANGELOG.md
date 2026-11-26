@@ -6,6 +6,12 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-11-25
+
+### Added
+
+- The manifest says the newest KubeScope the extension works with (`max_app`, 3.0.0), so a KubeScope newer than that neither installs nor offers it, and keeps the version made for it by @danilogco
+
 ## [1.1.0] - 2026-11-25
 
 ### Changed
@@ -24,7 +30,8 @@ All notable changes to this project are documented here. The format follows
 
 - The global search of KubeScope as an extension written against the SDK only: `/` and `Ctrl+K` find a screen, a list or a resource of any namespace by its name and open it
 
-[Unreleased]: https://github.com/dcotecnologia/kubescope-search/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/dcotecnologia/kubescope-search/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/dcotecnologia/kubescope-search/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/dcotecnologia/kubescope-search/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/dcotecnologia/kubescope-search/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/dcotecnologia/kubescope-search/releases/tag/v1.0.0
